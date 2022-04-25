@@ -49,7 +49,7 @@ function FetchAndMap() {
     });
 
     function GoToPage(e) {
-      window.location.href = "../checkout.html";
+      window.location.href = "checkout.html";
       localStorage.setItem("movie", JSON.stringify(e));
     }
   }
